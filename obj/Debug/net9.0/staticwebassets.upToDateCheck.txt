@@ -1,0 +1,2 @@
+C:\Users\Simon\source\repos\FrontendMVC\wwwroot\styles.css
+wwwroot\styles.css

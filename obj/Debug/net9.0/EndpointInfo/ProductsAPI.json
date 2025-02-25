@@ -1,0 +1,57 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Product API",
+    "description": "API do obsługi katalogu produktów",
+    "version": "v1"
+  },
+  "paths": {
+    "/product/AddForm": {
+      "get": {
+        "tags": [
+          "Product"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/product/AddProductAsync": {
+      "post": {
+        "tags": [
+          "ProductApi"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

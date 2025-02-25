@@ -1,0 +1,91 @@
+﻿@model FrontendMVC.Models.Product
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Produktów</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/styles.css" rel="stylesheet">
+</head>
+
+<body class="bg-light text-dark">
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="#">Katalog Produktów</a></div>
+            <input type="radio" name="slider" id="menu-btn">
+            <input type="radio" name="slider" id="close-btn">
+            <ul class="nav-links">
+                <li><a href="@Url.Action("ViewProducts", "Product")">Produkty</a></li>
+                <li><a href="@Url.Action("AddForm", "Product")" class="btn-grad">Dodaj produkt</a></li>
+            </ul>
+            <label for="menu-btn" class="btn menu-btn mbo"><i class="fas fa-bars"></i></label>
+        </div>
+    </nav>
+
+    <div class="container margTop">
+        <h2 class="text-center">Dodaj Produkt</h2>
+
+        <form id="AddProductAsyncForm">
+            <div>
+                <label for="Code">Kod</label>
+                <input type="text" id="Code" name="Code" required />
+            </div>
+            <div>
+                <label for="Name">Nazwa</label>
+                <input type="text" id="Name" name="Name" required />
+            </div>
+            <div>
+                <label for="Price">Cena</label>
+                <input type="number" id="Price" name="Price" required />
+            </div>
+            <button type="submit" class="btn-grad">Dodaj Produkt</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Katalog Produktów</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+
+
+<script>
+    $(document).ready(function () {
+        $("#AddProductAsyncForm").submit(function (event) {
+            event.preventDefault();
+
+            var formData = {
+                Code: $("#Code").val(),
+                Name: $("#Name").val(),
+                Price: $("#Price").val()
+            };
+
+             $.ajax({
+                type: 'POST',
+                url: 'https://localhost:7101/api/product/AddProductAsync',
+                contentType: 'application/json',
+                data: JSON.stringify(formData),
+                success: function (response) {
+                    toastr["success"](response.message);
+                    $("#AddProductAsyncForm")[0].reset();
+                },
+                error: function (xhr) {
+                    if (xhr.responseJSON && xhr.responseJSON.message) {
+                        toastr["error"](xhr.responseJSON.message);
+                    } else {
+                        toastr["error"]("Wystąpił błąd podczas dodawania produktu");
+                    }
+                }
+            });
+        });
+    });
+</script>

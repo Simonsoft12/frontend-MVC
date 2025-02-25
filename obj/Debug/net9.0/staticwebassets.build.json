@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "qceTKX8cI436d8iMI9/HiufQcTR6fz7t+iDQlp9bvVg=",
+  "Source": "FrontendMVC",
+  "BasePath": "_content/FrontendMVC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FrontendMVC\\wwwroot",
+      "Source": "FrontendMVC",
+      "ContentRoot": "C:\\Users\\Simon\\source\\repos\\FrontendMVC\\wwwroot\\",
+      "BasePath": "_content/FrontendMVC",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Simon\\source\\repos\\FrontendMVC\\obj\\Debug\\net9.0\\compressed\\iyewqvq4xl-g9voo5krbr.gz",
+      "SourceId": "FrontendMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Simon\\source\\repos\\FrontendMVC\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/FrontendMVC",
+      "RelativePath": "styles#[.{fingerprint=g9voo5krbr}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Simon\\source\\repos\\FrontendMVC\\wwwroot\\styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "lklrw0dumx",
+      "Integrity": "9RXxK3Lf2XExnkmCwO4uGqyggG3TIgZkU6o64aZsMp8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Simon\\source\\repos\\FrontendMVC\\wwwroot\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Simon\\source\\repos\\FrontendMVC\\wwwroot\\styles.css",
+      "SourceId": "FrontendMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Simon\\source\\repos\\FrontendMVC\\wwwroot\\",
+      "BasePath": "_content/FrontendMVC",
+      "RelativePath": "styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g9voo5krbr",
+      "Integrity": "vP+Mo6Z5qouJrvZG2qbqY0PjXg69MKyblmwMXVdi/XE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "styles.css",
+      "AssetFile": "C:\\Users\\Simon\\source\\repos\\FrontendMVC\\obj\\Debug\\net9.0\\compressed\\iyewqvq4xl-g9voo5krbr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000529941706"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1886"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9RXxK3Lf2XExnkmCwO4uGqyggG3TIgZkU6o64aZsMp8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 13:45:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"vP+Mo6Z5qouJrvZG2qbqY0PjXg69MKyblmwMXVdi/XE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vP+Mo6Z5qouJrvZG2qbqY0PjXg69MKyblmwMXVdi/XE="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css",
+      "AssetFile": "C:\\Users\\Simon\\source\\repos\\FrontendMVC\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8373"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vP+Mo6Z5qouJrvZG2qbqY0PjXg69MKyblmwMXVdi/XE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 13:45:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vP+Mo6Z5qouJrvZG2qbqY0PjXg69MKyblmwMXVdi/XE="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css.gz",
+      "AssetFile": "C:\\Users\\Simon\\source\\repos\\FrontendMVC\\obj\\Debug\\net9.0\\compressed\\iyewqvq4xl-g9voo5krbr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1886"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9RXxK3Lf2XExnkmCwO4uGqyggG3TIgZkU6o64aZsMp8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 13:45:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9RXxK3Lf2XExnkmCwO4uGqyggG3TIgZkU6o64aZsMp8="
+        }
+      ]
+    },
+    {
+      "Route": "styles.g9voo5krbr.css",
+      "AssetFile": "C:\\Users\\Simon\\source\\repos\\FrontendMVC\\obj\\Debug\\net9.0\\compressed\\iyewqvq4xl-g9voo5krbr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000529941706"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1886"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9RXxK3Lf2XExnkmCwO4uGqyggG3TIgZkU6o64aZsMp8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 13:45:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"vP+Mo6Z5qouJrvZG2qbqY0PjXg69MKyblmwMXVdi/XE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g9voo5krbr"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vP+Mo6Z5qouJrvZG2qbqY0PjXg69MKyblmwMXVdi/XE="
+        }
+      ]
+    },
+    {
+      "Route": "styles.g9voo5krbr.css",
+      "AssetFile": "C:\\Users\\Simon\\source\\repos\\FrontendMVC\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8373"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vP+Mo6Z5qouJrvZG2qbqY0PjXg69MKyblmwMXVdi/XE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 13:45:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g9voo5krbr"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vP+Mo6Z5qouJrvZG2qbqY0PjXg69MKyblmwMXVdi/XE="
+        }
+      ]
+    },
+    {
+      "Route": "styles.g9voo5krbr.css.gz",
+      "AssetFile": "C:\\Users\\Simon\\source\\repos\\FrontendMVC\\obj\\Debug\\net9.0\\compressed\\iyewqvq4xl-g9voo5krbr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1886"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9RXxK3Lf2XExnkmCwO4uGqyggG3TIgZkU6o64aZsMp8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 13:45:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g9voo5krbr"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9RXxK3Lf2XExnkmCwO4uGqyggG3TIgZkU6o64aZsMp8="
+        }
+      ]
+    }
+  ]
+}
